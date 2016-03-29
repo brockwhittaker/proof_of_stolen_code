@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,300italic,700,900);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444;
+  margin: 0;
+  height: 100vh;
+  background: #992209;
+  background: -webkit-linear-gradient(to bottom, #FFFFFF , #992209);
+  background: linear-gradient(to bottom, #FFFFFF , #992209);
+}
+
+a {
+  color: #992209;
+  text-decoration: underline;
+}
+
+.container {}
+
+.dark-grey {
+  color: #888;
+}
+
+#upload_file {
+  width: 400px;
+  padding: 170.5px 50px;
+  display: inline-block;
+  margin: 20px;
+  background-color: #FAFAFA;
+  border: 4px dashed #444;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+
+#button {
+  width: 150px;
+  background-color: #992209;
+  color: #FFF;
+  padding: 10px;
+  font-size: 16pt;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+  border-radius: 4px;
+
+  display: none;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.style {
+  margin: 0;
+  display: inline-block;
+  font-family: "Ultra";
+  font-size: 36pt;
+  text-align: center;
+}
+/*.center-container {
+  margin-top: calc((100vh - 780px) / 2);
+}*/
+
+.red {
+  color: #992209
+}
+
+#upload_description {
+  font-size: 18pt;
+}
+
+.subtext {
+  margin-bottom: 0px;
+}
+
+#box {
+  width: 100px;
+  fill: #444
+}
+
+#file_input {
+  display: none;
+}
+
+canvas, .substitute-img {
+  margin: 20px;
+  display: inline-block;
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.2);
+  width: 500px;
+  height: 500px;
+}
