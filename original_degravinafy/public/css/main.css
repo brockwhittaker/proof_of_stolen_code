@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,300italic,700,900);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444;
+
+  margin: 0;
+
+  height: 100vh;
+
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h3 {
+
+}
+
+a {
+  color: #afdfb2;
+  text-decoration: none;
+}
+
+.container {}
+
+.signature {
+  font-size: 10pt;
+  color: #888;
+}
+
+.dark-grey {
+  color: #888;
+}
+
+#upload_file {
+  width: 400px;
+  padding: 170.5px 50px;
+  display: inline-block;
+  margin: 20px;
+  background-color: #FAFAFA;
+  border: 4px dashed #444;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+#button {
+  width: 150px;
+  background-color: #afdfb2;
+  color: #FFF;
+  padding: 10px;
+  font-size: 16pt;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+  border-radius: 4px;
+
+  display: none;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#button:hover {
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.25);
+}
+
+#button:active {
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.cursive {
+  margin: 0;
+  display: inline-block;
+  font-family: "Pacifico";
+  font-size: 36pt;
+  text-align: center;
+}
+
+.center-container {
+  margin-top: calc((100vh - 780px) / 2);
+}
+
+.green {
+  color: #afdfb2
+}
+
+#upload_description {
+  font-size: 18pt;
+}
+
+.subtext {
+  margin-bottom: 0px;
+}
+
+#use_chrome {
+  display: inline-block;
+  font-size: 10pt;
+  font-weight: 300;
+  margin-top: 0;
+  width: 30%;
+}
+
+#box {
+  width: 100px;
+  fill: #444
+}
+
+#file_input {
+  display: none;
+}
+
+canvas, .substitute-img {
+  margin: 20px;
+  display: inline-block;
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.2);
+  width: 500px;
+  height: 500px;
+}
